@@ -13,7 +13,7 @@
 .promo {
     padding: 38px 0 62px;
     height: 800px;
-    background: url("../img/promo/promo-main-bg.jpg") center center/cover no-repeat;
+    background: url("../img/promo/promo-main-bg.jpg") center center / cover no-repeat;
 }
 
 .container {
@@ -95,4 +95,125 @@
 .more__img {
     display: block;
     margin: 5px auto 0;
+}
+
+.waiting {
+    padding: 88px 0 75px 0;
+    min-height: 600px;
+    background: #EFEFEF;
+}
+
+.waiting__header {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    color: #252525;
+}
+
+.waiting__header_white {
+    color: #FFF;
+}
+
+.waiting__divider {
+    margin: 16px auto;
+    width: 220px;
+    height: 4px;
+    background: #F9BF3B;
+}
+
+.waiting__subheader {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    text-align: center;
+    color: #4A4A4A;
+}
+
+.waiting__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 45px auto 0;
+}
+
+.waiting__item {
+    width: 342px;
+}
+
+.waiting__img {
+    width: 100%;
+}
+
+.waiting__descr {
+    margin: 24px 0 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #4A4A4A;
+}
+
+.optimization {
+    padding: 108px 0 74px 0;
+    min-height: 550px;
+    background: url('../img/optimization/optimization-woman-bg.jpg') 26% bottom / 868px 502px no-repeat;
+}
+
+.optimization__header {
+    margin: 0 0 10px 380px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 30px;;
+    color: #299CBD;
+}
+
+.optimization__text {
+    margin: 0 0 0 380px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+    color: #4A4A4A;
+}
+
+.optimization__bold {
+    font-weight: 700;
+}
+
+.after {
+    padding: 86px 0 ;
+    min-height: 448px;
+    background: url('../img/after/after-main-bg.png') center center / cover no-repeat;
+}
+
+.after__benefits {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0 0;
+}
+
+.after__benefit {
+    width: 204px;
+}
+
+.after__round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 118px;
+    height: 118px;
+    border-radius: 100%;
+    background: #B4E2FF;
+}
+
+.after__descr {
+    margin: 25px 0 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    color: #EFEFEF;
 }
