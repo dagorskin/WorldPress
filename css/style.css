@@ -87,7 +87,7 @@ a {
     background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
     cursor: pointer;
-    transition-duration: 0.3s;
+    transition-duration: 0.1s;
 }
 
 .sign-up-btn:hover {
@@ -96,7 +96,7 @@ a {
 }
 
 .sign-up-btn:active {
-    font-size: 18px;
+    font-size: 20px;
     transition-duration: 0.1s;
 }
 

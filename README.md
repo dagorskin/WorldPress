@@ -7,4 +7,4 @@ Grid: no;
 PerfectPixel: no;
 Adaptability: no;
 Transitions: yes;
-Pseudo classes: yes'
+Pseudo classes: yes;
